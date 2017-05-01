@@ -4,6 +4,10 @@ import pgn.poo.examenMarzo2017.estructuras.DimensionNoValidaException;
 
 public class Circulo extends FiguraCerrada{
 	private double radio;
+	/**
+	*eSTE SIRCULO ESTA MU BIEN
+	*@author Dageno25
+	*/
 	public Circulo(double radio) throws DimensionNoValidaException {
 		super();
 		setRadio(dimensionValida(radio));
